@@ -8,7 +8,7 @@
   - language c++17, also works with c++11
 
   - command to run program
-    `clear && g++ -std=c++17 infatuation.cpp && cat input_passwords.txt | ./a.out weak_password_list.txt`
+    `g++ -std=c++17 password_validator.cpp && cat input_passwords.txt | ./a.out weak_password_list.txt`
 
 ### changing arguments
   - you can replace list of weak password and change the file `weak_password_list.txt`
